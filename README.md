@@ -20,6 +20,8 @@
   - Balance Accuracy Test: 68%
   - High Risk Precision: 1%
   - Sensitivity: 80%
+  
+## Overview of the Analysis (Deliverable II)
 	
 ![](Resources/resamp_Under.png)
 
@@ -29,6 +31,24 @@
   - Sensitivity: 80%
 
 ![](Resources/resamp_Under.png)
+
+## Overview of the Analysis (Deliverable III)
+
+### Balanced Random Forest Classifier:
+  - Balance Accuracy Test: 68%
+  - High Risk Precision: 1%
+  - Sensitivity: 80%
+  
+![](Resources/ens_BRFC.png)
+
+### Easy Ensemble Classifier:
+  - Balance Accuracy Test: 68%
+  - High Risk Precision: 1%
+  - Sensitivity: 80%
+
+![](Resources/ens_EEAB.png)
+
+
 
 The focus has been on the following metrics to determine their impact.
 •	How many Vine reviews and non-Vine reviews were there?
