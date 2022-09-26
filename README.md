@@ -5,21 +5,22 @@
 ### Naïve Random Oversampling:
   - Balance Accuracy Test: 65%
   - High Risk Precision: 1%
-  - Sensitivity: 71%
-
+  - Recall:  71%
+  
 ![](Resources/resamp_NRO.png)
 
 ### Smote Oversampling:
   - Balance Accuracy Test: 66%
   - High Risk Precision: 1%
-  - Sensitivity: 63%
-
+  - Recall:  63%
+ 
 ![](Resources/resamp_SMOTE.png)
 
 ### Undersampling:
   - Balance Accuracy Test: 68%
   - High Risk Precision: 1%
-  - Sensitivity: 80%
+  - Recall:  80%
+  
   
 ## Overview of the Analysis (Deliverable II)
 	
@@ -28,45 +29,30 @@
 ### Over / Under Sampling:
   - Balance Accuracy Test: 68%
   - High Risk Precision: 1%
-  - Sensitivity: 80%
+  - Recall: 80%
 
 ![](Resources/resamp_Under.png)
 
 ## Overview of the Analysis (Deliverable III)
 
 ### Balanced Random Forest Classifier:
-  - Balance Accuracy Test: 68%
-  - High Risk Precision: 1%
-  - Sensitivity: 80%
+  - Balance Accuracy Test: 77%
+  - High Risk Precision: >1%
+  - Recall: 93%
   
 ![](Resources/ens_BRFC.png)
 
 ### Easy Ensemble Classifier:
-  - Balance Accuracy Test: 68%
-  - High Risk Precision: 1%
-  - Sensitivity: 80%
+  - Balance Accuracy Test: 93%
+  - High Risk Precision: >1%
+  - Recall: 92%
 
 ![](Resources/ens_EEAB.png)
 
-
-
-The focus has been on the following metrics to determine their impact.
-•	How many Vine reviews and non-Vine reviews were there?
-•	How many Vine reviews were 5-Stars?  How many non-Vine reviews were 5 Stars?
-•	What percentage of Vine reviews were 5 Stars?  What percentage of non-Vine reviews were 5 stars? 
-#### First, it important to understand the scale of the reviews.  Do to this it will be demonstrated how may unique items there are with twenty or more ratings.
-
-![](Resource/step3vineyes.png)
-
-![](Resource/step4vineno.png)
-
-#### As it can be seen there are two orders of magnitude between the Vine critics and the non-paid.
-#### Lastly, it can be seen in the Step Five process how many times each community rated items in wireless five stars and what was the overall contribution to the ratings in percentage.
-
-![](Resources/step5.png)
-
 ## Summary
-#### Overall this study gives insight as to how much of a contribution paid critics are worth.  Overall the contributed less than one percent to all of the positive reviews and may not be swaying reviewers to the extent that paid reviews are justified.  The non-paid users contributed to 89 percent of the positive reviews (five stars).  Overall the less than 1 percent would probably not lend bias to the reviews.
-#### It is suggest that a study would be performed to see if the Vine users and the non-paid users have reviews that roughly correlate to each other.  This would show if there is any bias in the reporting at all “Star” level.
+#### Overall, this study gives insight into each of the modeling techniques covered in the unit.  The technique is analogous to “Fake it till you make it…” where different models are continually tried unit a best fit model is observed.
+
+#### Observing the results above, it can be seen that the best predictive model for Loan Defaults is the Easy Ensemble Classifier Model due, not only, to its high Accuracy score (@ 93%) but its high Recall (also 92% with its ability to succesfully classify data) and low High Risk Precision under 1%.  Quite simply it beats out all the other models.
+
 
 						
