@@ -12,26 +12,23 @@
 ### Smote Oversampling:
   - Balance Accuracy Test: 66%
   - High Risk Precision: 1%
-	- Sensitivity: 63%
+  - Sensitivity: 63%
 
 ![](Resources/resamp_SMOTE.png)
 
 ### Undersampling:
-	- Balance Accuracy Test: 68%
-	- High Risk Precision: 1%
-	- Sensitivity: 80%
+  - Balance Accuracy Test: 68%
+  - High Risk Precision: 1%
+  - Sensitivity: 80%
+	
 ![](Resources/resamp_Under.png)
 
-### Undersampling:
-•	Balance Accuracy Test: 68%
-•	High Risk Precision: 1%
-•	Sensitivity: 80%
+### Over / Under Sampling:
+  - Balance Accuracy Test: 68%
+  - High Risk Precision: 1%
+  - Sensitivity: 80%
+
 ![](Resources/resamp_Under.png)
-
-
-
-
-
 
 The focus has been on the following metrics to determine their impact.
 •	How many Vine reviews and non-Vine reviews were there?
